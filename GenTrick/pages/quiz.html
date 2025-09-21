@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Assessment Quiz - GenTrick</title>
+    <link rel="stylesheet" href="/styles/quiz.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/index.html" class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 20.563a2 2 0 0 1-1.155-.44l-4-3A2 2 0 0 1 4 15.5V8.5a2 2 0 0 1 .845-1.624l4-3A2 2 0 0 1 10 3.5v17.063zM14 3.437a2 2 0 0 1 1.155.44l4 3A2 2 0 0 1 20 8.5v7a2 2 0 0 1-.845 1.624l-4 3A2 2 0 0 1 14 20.5V3.437z"/></svg>
+            GenTrick
+        </a>
+    </header>
+
+    <main class="main-content">
+        <div class="quiz-container">
+            
+            <div id="start-screen">
+                <div class="quiz-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 20.563a2 2 0 0 1-1.155-.44l-4-3A2 2 0 0 1 4 15.5V8.5a2 2 0 0 1 .845-1.624l4-3A2 2 0 0 1 10 3.5v17.063zM14 3.437a2 2 0 0 1 1.155.44l4 3A2 2 0 0 1 20 8.5v7a2 2 0 0 1-.845 1.624l-4 3A2 2 0 0 1 14 20.5V3.437z"/></svg></div>
+                <h1>Career Assessment Quiz</h1>
+                <p class="subtitle">Discover your perfect career path through our comprehensive AI-powered assessment</p>
+                <div class="features-grid">
+                    <div class="feature-item"><svg style="color:#3b82f6" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path d="M10.5 6a7.5 7.5 0 100 15 7.5 7.5 0 000-15z" /><path d="M10.5 10.5h.008v.008h-.008v-.008z" /><circle cx="10.5" cy="10.5" r="7" /></svg><div><h3>Skills Assessment</h3><p>Evaluate your current abilities</p></div></div>
+                    <div class="feature-item"><svg style="color:#14b8a6" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.311a14.994 14.994 0 01-7.5 0" /><path d="M9.75 6.75h4.5v4.5h-4.5v-4.5z" /><path d="M12 21a8.25 8.25 0 006.27-13.837 8.25 8.25 0 00-12.54 0A8.25 8.25 0 0012 21z" /></svg><div><h3>Interest Analysis</h3><p>Discover what motivates you</p></div></div>
+                    <div class="feature-item"><svg style="color:#a855f7" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg><div><h3>Personality Insights</h3><p>Understand your work style</p></div></div>
+                    <div class="feature-item"><svg style="color:#22c55e" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" /></svg><div><h3>Goal Alignment</h3><p>Match careers to your aspirations</p></div></div>
+                </div>
+                <div class="expectations">
+                    <h3>What to Expect:</h3>
+                    <ul class="expectations-list">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 13 carefully crafted questions</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 5-10 minutes to complete</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Personalized career recommendations</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Custom learning roadmap</li>
+                    </ul>
+                </div>
+                <button class="start-button" id="start-btn">Start Assessment →</button>
+            </div>
+            
+            <div id="quiz-section">
+                <h2 id="question-text">Question goes here</h2>
+                <div id="answer-buttons" class="answer-buttons"></div>
+                <div class="quiz-controls">
+                    <button id="next-btn" disabled>Next</button>
+                </div>
+            </div>
+
+            <div id="results-section">
+                <h2>✅ Assessment Complete!</h2>
+                <p>Thank you for completing the assessment. Your personalized results are now available on your dashboard.</p>
+                <a href="dashboard.html" class="btn-link">Go to Dashboard</a>
+            </div>
+        </div>
+    </main>
+<script src="/java_script/quiz.js"></script>
+</body>
+</html>

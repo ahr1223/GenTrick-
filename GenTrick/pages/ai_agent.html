@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Coach - GenTrick</title>
+    <link rel="stylesheet" href="/styles/ai_agent.css">
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <a href="dashboard.html" class="back-link"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"></path></svg>Back to Dashboard</a>
+            <a href="/index.html" class="logo"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2"><path d="M10 20.563a2 2 0 0 1-1.155-.44l-4-3A2 2 0 0 1 4 15.5V8.5a2 2 0 0 1 .845-1.624l4-3A2 2 0 0 1 10 3.5v17.063zM14 3.437a2 2 0 0 1 1.155.44l4 3A2 2 0 0 1 20 8.5v7a2 2 0 0 1-.845 1.624l-4 3A2 2 0 0 1 14 20.5V3.437z"/></svg>GenTrick</a>
+        </header>
+        <div class="chat-layout">
+            <aside class="sidebar">
+                <div class="sidebar-section"><h3 class="sidebar-title"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15.09 16.05a2.5 2.5 0 0 1-2.5-3.03l1.03-5.46a2.51 2.51 0 0 1 4.2-.62l3.43 6.18a2.5 2.5 0 0 1-2.22 3.93H8.5a2.5 2.5 0 0 1 0-5h2.5"/><path d="M8 14h.01"/><path d="M6.5 17.5h.01"/><path d="M4.5 14h.01"/><path d="M10.5 17.5h.01"/></svg>Quick Questions</h3><ul class="quick-questions-list"><li><a href="#">What skills should I focus on for my career?</a></li><li><a href="#">How can I improve my job interview skills?</a></li><li><a href="#">What are the best resources for learning programming?</a></li><li><a href="#">How do I transition to a new career field?</a></li></ul></div>
+                <div class="sidebar-section"><h3 class="sidebar-title"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>Career Topics</h3><div class="career-topics"><button class="topic-tag">Career Planning</button><button class="topic-tag">Skill Development</button><button class="topic-tag">Interview Prep</button><button class="topic-tag">Resume Building</button><button class="topic-tag">Networking Tips</button><button class="topic-tag">Industry Insights</button></div></div>
+                <div class="sidebar-section"><h3 class="sidebar-title"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>Recent Chats</h3><ul class="recent-chats-list"><li><h4>Software Engineering Path</h4><div class="date">2 hours ago</div></li><li><h4>Data Science Skills</h4><div class="date">Yesterday</div></li></ul></div>
+            </aside>
+            <main class="chat-area">
+                <div class="chat-header"><div><h2>AI Career Coach</h2><div class="online-status">Online</div></div></div>
+                <div class="chat-history" id="chat-history"></div>
+                <div class="chat-input-area"><form id="chat-form"><textarea id="chat-input" placeholder="Ask me anything about your career..." rows="1"></textarea><button type="submit" class="send-button"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 2-7 20-4-9-9-4Z"></path><path d="m22 2-11 11"></path></svg></button></form></div>
+            </main>
+        </div>
+    </div>
+     <script src="/java_script/ai_agent.js"></script>
+</body>
+</html>
